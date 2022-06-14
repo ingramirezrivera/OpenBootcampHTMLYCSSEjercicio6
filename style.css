@@ -1,0 +1,17 @@
+.button{
+    padding: 15px;
+    background-color: lightgray;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    color: black;
+}
+.button:hover{
+    content: "";
+    background-color: green;
+    color: white;
+}
+
+.button:hover::after{
+    content: " Hecho! ";
+}
